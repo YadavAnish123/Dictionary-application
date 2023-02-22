@@ -1,7 +1,7 @@
 const express=require('express')
 var axios = require("axios");
 const app=express();
-const port=80;
+const port=3000;
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/base.html');
